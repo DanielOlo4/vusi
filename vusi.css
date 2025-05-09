@@ -1,0 +1,169 @@
+* {
+  overflow-x: hidden;
+  margin: 0 auto;     
+  padding: 0 auto;    
+  }
+
+/* Ensure all children don't overflow the container */
+/* .container * {
+  max-width: 97%;
+  box-sizing: border-box;
+} */
+
+body {
+background-color: black;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+nav{
+background: linear-gradient(to right, rgb(238, 132, 61), rgb(231, 83, 83), rgb(219, 68, 219));
+font-size: 10px;
+height: 45px;
+padding-top: 12px;
+color: white;
+}
+
+
+.logo{
+width: max-content;
+margin: auto;
+}
+
+
+.directories{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 2rem;
+    width: max-content;
+  
+}
+.btn_btn{
+    border: 0;
+    outline: 0;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: max-content;
+        
+}
+
+#book {
+    background: linear-gradient(to right, rgb(238, 132, 61), rgb(231, 83, 83), rgb(219, 68, 219));
+    color: pink;
+    padding: 18px 14px ;
+    border-radius: 9px;
+   
+}
+
+#book2 {
+   background: linear-gradient(to right, rgb(238, 132, 61), rgb(231, 83, 83), rgb(219, 68, 219));
+   color: pink;
+   padding: 18px 14px ; 
+   border-radius: 9px;
+   
+}
+
+.about{
+font-size: 42px;
+font-weight: bolder;
+margin-top: 59px;
+width: 35%;
+
+}
+.jjp{
+width: 70%;
+margin-right: -20%;
+padding-left: -40%;
+}
+.hero{
+margin-top: 5px;
+display: flex;
+color: white;
+padding-left: 4%;
+
+}
+
+.dragon{
+justify-content: space-around;
+display: flex;
+color: white;
+margin-left: 1%;
+margin-right: 4%;
+padding-top: 5%;
+}
+
+.black{
+width: 40%;
+line-height: 30px;
+}
+
+.see{
+width: 35% ;
+
+}
+
+.arrange{
+color:bisque;
+font-weight: bolder;
+font-size: 50px;
+display: flex;
+padding-left: 10%;
+}
+
+.orange{
+color:bisque;
+font-weight:800;
+font-size: 12px;
+display: flex;
+padding-left: 8%;
+padding-top: 30px;
+}
+
+.youtube{
+background-color: white;
+padding-bottom: 20px;
+}
+
+.imagine{
+width: max-content;
+margin: auto;
+}
+
+.video{
+width: max-content;
+margin: auto;
+padding-bottom: 10px;
+
+}
+
+.middle{
+ background: linear-gradient(to right, rgb(238, 132, 61), rgb(231, 83, 83), rgb(219, 68, 219));
+ padding-left: 40%;
+ padding-top: 30px;
+ height: 100px;
+}
+
+
+.photo{
+width: max-content;
+}
+
+.them{
+width: max-content;
+}
+
+.award{
+background-color: antiquewhite;
+height: 160px;
+padding-top: 5%;
+padding-left: 37%;
+width: 100%;
+}
+
+.fut{
+color: white;
+display: flex;
+line-height: 26px;
+}
